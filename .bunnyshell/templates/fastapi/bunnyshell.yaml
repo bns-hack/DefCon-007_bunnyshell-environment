@@ -4,7 +4,7 @@ type: primary
 components:
   - kind: Application
     name: backend
-    gitRepo: 'https://github.com/DefCon-007/bunnyshell-environment.git'
+    gitRepo: 'https://github.com/bns-hack/DefCon-007_bunnyshell-environment.git'
     gitBranch: master
     gitApplicationPath: applications/python-fastapi
     dockerCompose:
@@ -36,7 +36,7 @@ components:
         subPath: ''
   - kind: Application
     name: frontend
-    gitRepo: 'https://github.com/DefCon-007/bunnyshell-environment.git'
+    gitRepo: 'https://github.com/bns-hack/DefCon-007_bunnyshell-environment.git'
     gitBranch: master
     gitApplicationPath: applications/react-frontend
     dockerCompose:
